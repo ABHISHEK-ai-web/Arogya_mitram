@@ -319,21 +319,21 @@ def init_session_state():
             {
                 "id": 1, "name": "Paracetamol 500mg", "description": "For fever and pain relief", 
                 "quantity": 50, "expiry": "2024-12-31", "donor": "Rahul Sharma", 
-                "donor_contact": "919876543210", "location": "College Medical Room", "status": "approved", 
+                "donor_contact": "918076747293", "location": "College Medical Room", "status": "approved", 
                 "category": "Pain Relief", "image": "https://m.media-amazon.com/images/I/61tL6yTZf6L._AC_UF1000,1000_QL80_.jpg",
                 "value": 2, "added_date": "2023-05-15", "prescription": False
             },
             {
                 "id": 2, "name": "Amoxicillin 250mg", "description": "Antibiotic for bacterial infections", 
                 "quantity": 30, "expiry": "2024-08-30", "donor": "Priya Patel", 
-                "donor_contact": "919876543211", "location": "College Medical Room", "status": "approved", 
+                "donor_contact": "917068720697", "location": "College Medical Room", "status": "approved", 
                 "category": "Antibiotic", "image": "https://5.imimg.com/data5/SELLER/Default/2021/12/SE/BN/YK/3033203/amoxicillin-250mg-capsule-1000x1000.jpg",
                 "value": 5, "added_date": "2023-06-20", "prescription": True
             },
             {
                 "id": 3, "name": "Atorvastatin 20mg", "description": "Cholesterol lowering medication", 
                 "quantity": 20, "expiry": "2025-03-15", "donor": "Amit Kumar", 
-                "donor_contact": "919876543212", "location": "College Medical Room", "status": "pending", 
+                "donor_contact": "917068720697", "location": "College Medical Room", "status": "pending", 
                 "category": "Cardiovascular", "image": "https://5.imimg.com/data5/SELLER/Default/2023/7/318929384/QH/VS/GT/199470473/atorvastatin-20-mg-tablet-500x500.jpg",
                 "value": 8, "added_date": "2023-07-10", "prescription": True
             }
@@ -342,8 +342,8 @@ def init_session_state():
     if 'users' not in st.session_state:
         st.session_state.users = {
             "admin": {"password": "admin123", "name": "Admin", "phone": "911234567890", "role": "admin", "org": "College Medical Center"},
-            "donor1": {"password": "donor123", "name": "Rahul Sharma", "phone": "919876543210", "role": "donor", "org": "Student"},
-            "donor2": {"password": "donor123", "name": "Priya Patel", "phone": "919876543211", "role": "donor", "org": "Faculty"},
+            "donor1": {"password": "donor123", "name": "Rahul Sharma", "phone": "917068720697", "role": "donor", "org": "Student"},
+            "donor2": {"password": "donor123", "name": "Priya Patel", "phone": "918076747293", "role": "donor", "org": "Faculty"},
             "recipient1": {"password": "recipient123", "name": "Medical Staff", "phone": "919876543213", "role": "recipient", "org": "College Health Center"}
         }
     
